@@ -67,36 +67,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2233467660038490017
-  Name: "Doors"
-  Transform {
-    Location {
-      X: 200
-      Y: -470
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8201309591474542957
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Doors"
-  }
-}
-Objects {
   Id: 797974882381574405
   Name: "Wall"
   Transform {
@@ -180,63 +150,5 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Environment"
-  }
-}
-Objects {
-  Id: 4454130269979151814
-  Name: "Base 2"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 7.17169678e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8201309591474542957
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Team Base 2"
-  }
-}
-Objects {
-  Id: 6448496765326443411
-  Name: "Base 1"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8201309591474542957
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Team Base 1"
   }
 }

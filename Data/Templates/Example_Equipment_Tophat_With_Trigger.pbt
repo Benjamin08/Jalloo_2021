@@ -364,7 +364,7 @@ Assets {
     }
     Assets {
       Id: 6000681835192046231
-      Name: "Pipe (thick)"
+      Name: "Pipe - Thick"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -382,7 +382,7 @@ Assets {
     }
     Assets {
       Id: 5836430349218932838
-      Name: "Pipe (thin)"
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"

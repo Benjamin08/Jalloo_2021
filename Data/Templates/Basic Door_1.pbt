@@ -709,7 +709,7 @@ Assets {
     }
     Assets {
       Id: 4903499742970695079
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"

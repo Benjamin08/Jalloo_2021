@@ -1,4 +1,4 @@
-local ROOT = script.parent
+local ROOT = script.parent.parent
 local TIME_TO_TRAVEL = script:GetCustomProperty("TimeToTravel")
 local OFFSET = script:GetCustomProperty("Offset")
 
@@ -26,10 +26,11 @@ end
 -- When a player hits the coin, increment a resource on the player and remove the coin
 function handleOverlap(trigger, object)
     if object ~= nil and object:IsA("Player") then
-		propCoinSound:Play()
-		trigger.isEnabled = false
-
-		object:AddResource("Coins", 100)
+		--propCoinSound:Play()
+		Task.Wait(1)
+		--trigger.isEnabled = false
+		ROOT.isEnabled = false
+		object:AddResource("Coins", 50)
 
 		--Task.Wait(5)
 		--trigger.isEnabled = true
@@ -37,4 +38,4 @@ function handleOverlap(trigger, object)
 end
 
 -- Whenever an object collides with the trigger, run this function
----script.parent.beginOverlapEvent:Connect(handleOverlap)
+script.parent.beginOverlapEvent:Connect(handleOverlap)

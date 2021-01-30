@@ -27,6 +27,7 @@ Objects {
   ChildIds: 15740909914066472899
   ChildIds: 5956088176182018154
   ChildIds: 800500129160900990
+
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -57,6 +58,7 @@ Objects {
   }
   ParentId: 8568336417442047963
   ChildIds: 13630589762859064205
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -72,6 +74,7 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
+
     }
     Rotation {
     }
@@ -84,6 +87,7 @@ Objects {
   ParentId: 800500129160900990
   ChildIds: 11003908302361671309
   ChildIds: 15513768965046540805
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -104,12 +108,14 @@ Objects {
         Mass: 100
         LinearDamping: 0.01
       }
+
     }
   }
 }
 Objects {
   Id: 15513768965046540805
   Name: "DroppingPlatform"
+
   Transform {
     Location {
     }
@@ -122,6 +128,7 @@ Objects {
     }
   }
   ParentId: 13630589762859064205
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -141,6 +148,7 @@ Objects {
     Location {
       X: 200
       Z: 75
+
     }
     Rotation {
     }
@@ -151,6 +159,7 @@ Objects {
     }
   }
   ParentId: 13630589762859064205
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164,6 +173,7 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
+
     }
   }
 }
@@ -185,6 +195,8 @@ Objects {
     }
   }
   ParentId: 8568336417442047963
+
+ 
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -194,6 +206,7 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 17546982558755096284
+
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -204,6 +217,7 @@ Objects {
       Physics {
         Mass: 100
         LinearDamping: 0.01
+
       }
     }
   }
@@ -216,6 +230,7 @@ Objects {
       X: 1900
       Y: -2900
       Z: 5300
+
     }
     Rotation {
     }
@@ -226,6 +241,7 @@ Objects {
     }
   }
   ParentId: 8568336417442047963
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -235,6 +251,7 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 17546982558755096284
+
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -245,6 +262,7 @@ Objects {
       Physics {
         Mass: 100
         LinearDamping: 0.01
+n
       }
     }
   }
@@ -267,6 +285,7 @@ Objects {
     }
   }
   ParentId: 8568336417442047963
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -276,6 +295,7 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 17546982558755096284
+
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -286,6 +306,7 @@ Objects {
       Physics {
         Mass: 100
         LinearDamping: 0.01
+
       }
     }
   }
@@ -410,6 +431,7 @@ Objects {
       X: 700
       Y: -400
       Z: 700
+
     }
     Rotation {
     }
@@ -422,6 +444,7 @@ Objects {
   ParentId: 8568336417442047963
   ChildIds: 7198015012998579039
   ChildIds: 14222056339193115159
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -519,6 +542,7 @@ Objects {
   Id: 7198015012998579039
   Name: "MovingPlatform"
   Transform {
+
     Scale {
       X: 1
       Y: 1
@@ -595,6 +619,7 @@ Objects {
   Id: 10904206520317843785
   Name: "Basic Key"
   Transform {
+
     Scale {
       X: 1
       Y: 1
@@ -644,6 +669,7 @@ Objects {
     }
   }
   ParentId: 8568336417442047963
+
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

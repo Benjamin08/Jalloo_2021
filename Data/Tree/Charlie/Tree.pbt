@@ -1602,6 +1602,21 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5200308765315691247
+      value {
+        Overrides {
+          Name: "cs:Offset"
+          Vector {
+            Y: 600
+          }
+        }
+        Overrides {
+          Name: "cs:TimeToTravel"
+          Float: 1
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16921999667222158078
       value {
         Overrides {
@@ -1611,9 +1626,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2400
-            Y: 850
-            Z: -3200
+            X: 3670
+            Y: -670
+            Z: -2635
           }
         }
         Overrides {

@@ -1,19 +1,10 @@
 Assets {
-  Id: 16435456726063022908
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
+  Id: 18402573802406365892
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
-  Id: 12905923173550510229
-  Name: "Cylinder - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_test_001"
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {
@@ -35,48 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8029883954002842907
-  Name: "Ring - Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_005"
-  }
-}
-Assets {
   Id: 7932556279649063567
   Name: "Pipe - Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_003"
-  }
-}
-Assets {
-  Id: 7827223269146541541
-  Name: "Prism - 3-Sided Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_hq_001"
-  }
-}
-Assets {
-  Id: 5109129970559468393
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
-  Id: 5092098195458113160
-  Name: "Metal Old Beaten Gold 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_gold_002"
   }
 }
 Assets {

@@ -1,6 +1,32 @@
 Name: "Colby"
 RootId: 7607678787008079524
 Objects {
+  Id: 11346148218535532115
+  Name: "Level 1 Ground"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7607678787008079524
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level 1 Ground"
+  }
+}
+Objects {
   Id: 7016968366313103341
   Name: "Kill Zone"
   Transform {
@@ -69,36 +95,6 @@ Objects {
     TemplateAsset {
       Id: 2857347357152813362
     }
-  }
-}
-Objects {
-  Id: 797974882381574405
-  Name: "Wall"
-  Transform {
-    Location {
-      X: -200
-      Y: -200
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7607678787008079524
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Wall"
   }
 }
 Objects {

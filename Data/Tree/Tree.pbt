@@ -23,7 +23,7 @@ Objects {
   ChildIds: 15482014757726551153
   ChildIds: 11320302683138332715
   ChildIds: 5894069442207322108
-  ChildIds: 10045013073199592357
+  ChildIds: 12041755245217136759
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,282 +36,38 @@ Objects {
   }
 }
 Objects {
-  Id: 10045013073199592357
-  Name: "MovingPlatform"
+  Id: 12041755245217136759
+  Name: "turtle shit 404"
   Transform {
-    Location {
-      X: -450
-      Y: -300
-      Z: -50
-    }
     Scale {
-      X: 5
-      Y: 5
-      Z: 5
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 8568336417442047963
-  ChildIds: 18267529593506289363
-  ChildIds: 804653482558550751
-  ChildIds: 11569147405370024075
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5109129970559468393
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16921999667222158078
+      value {
+        Overrides {
+          Name: "Name"
+          String: "turtle shit 404"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -450
+            Y: -300
+            Z: -50
+          }
+        }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10045013073199592357
-    SubobjectId: 2671395276593627741
-    InstanceId: 17019791254679305714
-    TemplateId: 12431729072329565162
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 11569147405370024075
-  Name: "Trigger"
-  Transform {
-    Location {
-      Z: 60
+    TemplateAsset {
+      Id: 15996839473601527794
     }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.2
-    }
-  }
-  ParentId: 10045013073199592357
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 804653482558550751
-  Name: "MovingPlatform"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.2
-      Y: 0.2
-      Z: 0.2
-    }
-  }
-  ParentId: 10045013073199592357
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:TimeToTravel"
-      Float: 2.5
-    }
-    Overrides {
-      Name: "cs:Offset"
-      Vector {
-        X: -2800
-      }
-    }
-    Overrides {
-      Name: "cs:RotationRate"
-      Rotator {
-      }
-    }
-    Overrides {
-      Name: "cs:RotationMultiplier"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Delay"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:TimeToTravel:tooltip"
-      String: "The length of time it takes the platform to move to its offset."
-    }
-    Overrides {
-      Name: "cs:Offset:tooltip"
-      String: "How far away from its initial position this platform will move towards, wait, and then return."
-    }
-    Overrides {
-      Name: "cs:Delay:tooltip"
-      String: "The length of time the platform will pause at each end of its trip before resuming."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10909506530533257007
-    }
-  }
-  InstanceHistory {
-    SelfId: 804653482558550751
-    SubobjectId: 11916254025430631207
-    InstanceId: 17019791254679305714
-    TemplateId: 12431729072329565162
-  }
-}
-Objects {
-  Id: 18267529593506289363
-  Name: "Kill Zone"
-  Transform {
-    Location {
-      Z: -20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.1
-      Y: 1.1
-      Z: 1.1
-    }
-  }
-  ParentId: 10045013073199592357
-  ChildIds: 18192018902033072665
-  ChildIds: 11599395217832053515
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 18267529593506289363
-    SubobjectId: 13648825478633622894
-    InstanceId: 8620694242624869140
-    TemplateId: 2857347357152813362
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 11599395217832053515
-  Name: "KillZoneServer"
-  Transform {
-    Location {
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18267529593506289363
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:KillTrigger"
-      ObjectReference {
-        SelfId: 18192018902033072665
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3908110495107565482
-    }
-  }
-  InstanceHistory {
-    SelfId: 11599395217832053515
-    SubobjectId: 16145483188601114806
-    InstanceId: 8620694242624869140
-    TemplateId: 2857347357152813362
-  }
-}
-Objects {
-  Id: 18192018902033072665
-  Name: "KillTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18267529593506289363
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 18192018902033072665
-    SubobjectId: 13591331349196528036
-    InstanceId: 8620694242624869140
-    TemplateId: 2857347357152813362
   }
 }
 Objects {

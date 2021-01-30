@@ -7,3 +7,12 @@ Assets {
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
   }
 }
+Assets {
+  Id: 4377716601304628691
+  Name: "Bone Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bone_raw_001_uv_ref"
+  }
+}

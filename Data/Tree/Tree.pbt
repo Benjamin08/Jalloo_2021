@@ -18,6 +18,8 @@ Objects {
   ChildIds: 10412379021265105746
   ChildIds: 14037771509087251097
   ChildIds: 8201309591474542957
+  ChildIds: 8783125942455655317
+  ChildIds: 2923230652556755500
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27,6 +29,193 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2923230652556755500
+  Name: "Kill Zone"
+  Transform {
+    Location {
+      X: 1000
+      Y: -1300
+      Z: 200
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8568336417442047963
+  ChildIds: 2982829245036926694
+  ChildIds: 8497025678174298100
+  ChildIds: 1278938208712359785
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2923230652556755500
+    SubobjectId: 13648825478633622894
+    InstanceId: 3274063339012700351
+    TemplateId: 2857347357152813362
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1278938208712359785
+  Name: "Bannister Single Post"
+  Transform {
+    Location {
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2923230652556755500
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 529316683955106364
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8497025678174298100
+  Name: "KillZoneServer"
+  Transform {
+    Location {
+      Z: -6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2923230652556755500
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:KillTrigger"
+      ObjectReference {
+        SelfId: 2982829245036926694
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3908110495107565482
+    }
+  }
+  InstanceHistory {
+    SelfId: 8497025678174298100
+    SubobjectId: 16145483188601114806
+    InstanceId: 3274063339012700351
+    TemplateId: 2857347357152813362
+  }
+}
+Objects {
+  Id: 2982829245036926694
+  Name: "KillTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2923230652556755500
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 2982829245036926694
+    SubobjectId: 13591331349196528036
+    InstanceId: 3274063339012700351
+    TemplateId: 2857347357152813362
+  }
+}
+Objects {
+  Id: 8783125942455655317
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: 600
+      Y: -1500
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8568336417442047963
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
   }
 }
 Objects {

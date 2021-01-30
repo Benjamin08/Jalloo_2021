@@ -2145,6 +2145,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 4377716601304628691
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3639,6 +3645,7 @@ Objects {
   Name: "Floor Block"
   Transform {
     Location {
+      Z: -200
     }
     Rotation {
     }

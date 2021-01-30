@@ -39,6 +39,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 11592647923584693331
+      value {
+        Overrides {
+          Name: "PlayerJumpMaxCount"
+          Int: 2
+        }
+      }
+    }
     TemplateAsset {
       Id: 13544716362116832690
     }

@@ -1,5 +1,5 @@
-Name: "Map"
-RootId: 8201309591474542957
+Name: "Colby"
+RootId: 7607678787008079524
 Objects {
   Id: 7016968366313103341
   Name: "Kill Zone"
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8201309591474542957
+  ParentId: 7607678787008079524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -59,6 +59,11 @@ Objects {
             Z: -300
           }
         }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     TemplateAsset {
@@ -82,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8201309591474542957
+  ParentId: 7607678787008079524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -110,7 +115,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8201309591474542957
+  ParentId: 7607678787008079524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -138,7 +143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8201309591474542957
+  ParentId: 7607678787008079524
   UnregisteredParameters {
   }
   Collidable_v2 {

@@ -22,6 +22,7 @@ Objects {
   ChildIds: 13466431042493972239
   ChildIds: 7607678787008079524
   ChildIds: 8312963254969862732
+  ChildIds: 12346128605756495715
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,37 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12346128605756495715
+  Name: "Colbys Terrain"
+  Transform {
+    Location {
+      Z: -5650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8568336417442047963
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 13626417005819636981
+    }
+    VoxelSize: 700
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
   }
 }
 Objects {
@@ -275,7 +307,7 @@ Objects {
   Transform {
     Location {
       X: 5275
-      Y: -425
+      Y: -23700
       Z: 325
     }
     Rotation {

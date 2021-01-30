@@ -1605,7 +1605,7 @@ Objects {
     }
   }
   ParentId: 11351962217287447142
-  ChildIds: 16061660918639459698
+  ChildIds: 4572971331966016119
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1630,11 +1630,13 @@ Objects {
   }
 }
 Objects {
-  Id: 16061660918639459698
-  Name: "MovingPlatform"
+  Id: 4572971331966016119
+  Name: "yurtle"
   Transform {
     Location {
-      Z: -20
+      X: -480
+      Y: -170
+      Z: 620
     }
     Rotation {
     }
@@ -1645,43 +1647,6 @@ Objects {
     }
   }
   ParentId: 6995644494714116078
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:TimeToTravel"
-      Float: 2.5
-    }
-    Overrides {
-      Name: "cs:Offset"
-      Vector {
-        X: -2800
-      }
-    }
-    Overrides {
-      Name: "cs:RotationRate"
-      Rotator {
-      }
-    }
-    Overrides {
-      Name: "cs:RotationMultiplier"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Delay"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:TimeToTravel:tooltip"
-      String: "The length of time it takes the platform to move to its offset."
-    }
-    Overrides {
-      Name: "cs:Offset:tooltip"
-      String: "How far away from its initial position this platform will move towards, wait, and then return."
-    }
-    Overrides {
-      Name: "cs:Delay:tooltip"
-      String: "The length of time the platform will pause at each end of its trip before resuming."
-    }
-  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1691,14 +1656,8 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 10909506530533257007
+      Id: 3807570165356444269
     }
-  }
-  InstanceHistory {
-    SelfId: 16061660918639459698
-    SubobjectId: 12230435142704535018
-    InstanceId: 12041755245217136759
-    TemplateId: 15996839473601527794
   }
 }
 Objects {

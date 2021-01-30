@@ -1535,77 +1535,64 @@ Objects {
   }
 }
 Objects {
-  Id: 11351962217287447142
+  Id: 9933652579619732077
   Name: "turtle shit 404"
   Transform {
-    Location {
-      X: 2400
-      Y: 850
-      Z: -3200
-    }
-    Rotation {
-    }
     Scale {
-      X: 5
-      Y: 5
-      Z: 5
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 13466431042493972239
-  ChildIds: 13109660591068952983
-  ChildIds: 6995644494714116078
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5109129970559468393
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16921999667222158078
+      value {
+        Overrides {
+          Name: "Name"
+          String: "turtle shit 404"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2500
+            Y: 1650
+            Z: -3250
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 5
+            Z: 5
+          }
+        }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11351962217287447142
-    SubobjectId: 16921999667222158078
-    InstanceId: 12041755245217136759
-    TemplateId: 15996839473601527794
-    WasRoot: true
+    TemplateAsset {
+      Id: 15996839473601527794
+    }
   }
 }
 Objects {
-  Id: 6995644494714116078
-  Name: "Trigger"
+  Id: 12041755245217136759
+  Name: "turtle shit 404"
   Transform {
-    Location {
-      Z: 20
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 11351962217287447142
-  ChildIds: 4572971331966016119
+  ParentId: 13466431042493972239
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1613,171 +1600,32 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 6995644494714116078
-    SubobjectId: 1605750892567920502
-    InstanceId: 12041755245217136759
-    TemplateId: 15996839473601527794
-  }
-}
-Objects {
-  Id: 4572971331966016119
-  Name: "yurtle"
-  Transform {
-    Location {
-      X: -480
-      Y: -170
-      Z: 620
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.2
-      Y: 0.2
-      Z: 0.2
-    }
-  }
-  ParentId: 6995644494714116078
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3807570165356444269
-    }
-  }
-}
-Objects {
-  Id: 13109660591068952983
-  Name: "Kill Zone"
-  Transform {
-    Location {
-      Z: -20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.1
-      Y: 1.1
-      Z: 1.1
-    }
-  }
-  ParentId: 11351962217287447142
-  ChildIds: 10241250519773187963
-  ChildIds: 11390783337317379353
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 13109660591068952983
-    SubobjectId: 14029731735013871887
-    InstanceId: 12041755245217136759
-    TemplateId: 15996839473601527794
-  }
-}
-Objects {
-  Id: 11390783337317379353
-  Name: "KillZoneServer"
-  Transform {
-    Location {
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13109660591068952983
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:KillTrigger"
-      ObjectReference {
-        SelfId: 10241250519773187963
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16921999667222158078
+      value {
+        Overrides {
+          Name: "Name"
+          String: "turtle shit 404"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2400
+            Y: 850
+            Z: -3200
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3908110495107565482
+    TemplateAsset {
+      Id: 15996839473601527794
     }
-  }
-  InstanceHistory {
-    SelfId: 11390783337317379353
-    SubobjectId: 16810091807858836865
-    InstanceId: 12041755245217136759
-    TemplateId: 15996839473601527794
-  }
-}
-Objects {
-  Id: 10241250519773187963
-  Name: "KillTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13109660591068952983
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 10241250519773187963
-    SubobjectId: 17977660948130916323
-    InstanceId: 12041755245217136759
-    TemplateId: 15996839473601527794
   }
 }
 Objects {

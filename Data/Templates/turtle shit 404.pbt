@@ -7,7 +7,7 @@ Assets {
       RootId: 16921999667222158078
       Objects {
         Id: 16921999667222158078
-        Name: "MovingPlatform"
+        Name: "turtle shit 404"
         Transform {
           Scale {
             X: 5
@@ -15,9 +15,8 @@ Assets {
             Z: 5
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 13466431042493972239
         ChildIds: 14029731735013871887
-        ChildIds: 12230435142704535018
         ChildIds: 1605750892567920502
         UnregisteredParameters {
           Overrides {
@@ -150,10 +149,47 @@ Assets {
         }
       }
       Objects {
-        Id: 12230435142704535018
-        Name: "MovingPlatform"
+        Id: 1605750892567920502
+        Name: "Trigger"
         Transform {
           Location {
+            Z: 20
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16921999667222158078
+        ChildIds: 5200308765315691247
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 5200308765315691247
+        Name: "yurtle"
+        Transform {
+          Location {
+            X: -480
+            Y: -170
+            Z: 620
           }
           Rotation {
           }
@@ -163,7 +199,7 @@ Assets {
             Z: 0.2
           }
         }
-        ParentId: 16921999667222158078
+        ParentId: 1605750892567920502
         UnregisteredParameters {
           Overrides {
             Name: "cs:TimeToTravel"
@@ -210,40 +246,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 10909506530533257007
-          }
-        }
-      }
-      Objects {
-        Id: 1605750892567920502
-        Name: "Trigger"
-        Transform {
-          Location {
-            Z: 60
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 0.2
-          }
-        }
-        ParentId: 16921999667222158078
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
+            Id: 3807570165356444269
           }
         }
       }

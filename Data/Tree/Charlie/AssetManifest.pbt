@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5109129970559468393
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 3131402881756637796
   Name: "Metal Basic 01"
   PlatformAssetType: 2

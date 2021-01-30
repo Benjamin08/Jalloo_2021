@@ -30,6 +30,35 @@ Objects {
   }
 }
 Objects {
+  Id: 6475653926233282736
+  Name: "Level 1 Coins "
+  Transform {
+    Location {
+      X: -760
+      Y: 24505
+      Z: -3230
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7607678787008079524
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level 1 Coins"
+  }
+}
+Objects {
   Id: 7016968366313103341
   Name: "Kill Zone"
   Transform {

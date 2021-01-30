@@ -1,8 +1,8 @@
 Name: "Map"
 RootId: 8201309591474542957
 Objects {
-  Id: 7270008311904301913
-  Name: "Road"
+  Id: 2241859449908369223
+  Name: "Ground"
   Transform {
     Location {
     }
@@ -15,8 +15,6 @@ Objects {
     }
   }
   ParentId: 8201309591474542957
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

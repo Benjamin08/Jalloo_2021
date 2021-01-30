@@ -74,7 +74,7 @@ Objects {
 }
 Objects {
   Id: 4832139476130371488
-  Name: "Score UI"
+  Name: "Instruction UI"
   Transform {
     Location {
     }

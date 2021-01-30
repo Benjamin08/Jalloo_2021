@@ -58,9 +58,9 @@ Objects {
   }
   Terrain {
     Material {
-      Id: 13626417005819636981
+      Id: 7124799991923777168
     }
-    VoxelSize: 700
+    VoxelSize: 300
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
   }
@@ -186,7 +186,8 @@ Objects {
   Name: "Bannister Single Post"
   Transform {
     Location {
-      Z: -50
+      Y: -1975
+      Z: -13785
     }
     Rotation {
     }
@@ -267,6 +268,8 @@ Objects {
   Name: "KillTrigger"
   Transform {
     Location {
+      Y: -1975
+      Z: -13735
     }
     Rotation {
     }
@@ -306,9 +309,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 5275
-      Y: -23700
-      Z: 325
+      X: 4095
+      Y: 640
+      Z: -2875
     }
     Rotation {
     }

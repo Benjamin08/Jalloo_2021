@@ -6,10 +6,11 @@ Objects {
   Transform {
     Location {
       X: -1616.93579
-      Y: 533.975403
+      Y: -1441.02344
+      Z: -13735
     }
     Rotation {
-      Pitch: -30.991209
+      Pitch: -30.9912109
       Yaw: 36.6225471
       Roll: 7.24394369
     }
@@ -107,7 +108,8 @@ Objects {
   Transform {
     Location {
       X: -1616.93579
-      Y: 533.975403
+      Y: -1441.02344
+      Z: -13735
     }
     Rotation {
     }
@@ -188,7 +190,8 @@ Objects {
   Transform {
     Location {
       X: -1616.93579
-      Y: 533.975403
+      Y: -1441.02344
+      Z: -13735
     }
     Rotation {
     }

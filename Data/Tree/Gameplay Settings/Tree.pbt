@@ -76,7 +76,8 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      Z: 500
+      Y: -1975
+      Z: -13235
     }
     Rotation {
     }

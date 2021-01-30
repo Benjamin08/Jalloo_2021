@@ -5,6 +5,9 @@ Objects {
   Name: "Level 1"
   Transform {
     Location {
+      X: -760
+      Y: 1105
+      Z: -3230
     }
     Rotation {
     }
@@ -82,7 +85,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Z: -300
+            Y: -1975
+            Z: -14035
           }
         }
         Overrides {

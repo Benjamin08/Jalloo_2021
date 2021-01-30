@@ -1,6 +1,32 @@
 Name: "Colby"
 RootId: 7607678787008079524
 Objects {
+  Id: 17019464443057773195
+  Name: "Roof"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7607678787008079524
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Roof"
+  }
+}
+Objects {
   Id: 7016968366313103341
   Name: "Kill Zone"
   Transform {

@@ -1582,3 +1582,38 @@ Objects {
     }
   }
 }
+Objects {
+  Id: 12537166740088774246
+  Name: "BIgASSkey"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13466431042493972239
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17215012736106339947
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BIgASSkey"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3250
+            Y: 2250
+            Z: -3100
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9363415347757242383
+    }
+  }
+}

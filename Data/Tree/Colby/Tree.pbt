@@ -1,6 +1,32 @@
 Name: "Colby"
 RootId: 7607678787008079524
 Objects {
+  Id: 4481749579654899284
+  Name: "Level 1 Drones"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7607678787008079524
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level 1 Drones"
+  }
+}
+Objects {
   Id: 17019464443057773195
   Name: "Level 1"
   Transform {

@@ -1,32 +1,6 @@
 Name: "Map"
 RootId: 8201309591474542957
 Objects {
-  Id: 2241859449908369223
-  Name: "Ground"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8201309591474542957
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Ground"
-  }
-}
-Objects {
   Id: 7016968366313103341
   Name: "Kill Zone"
   Transform {
@@ -120,6 +94,34 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wall"
+  }
+}
+Objects {
+  Id: 12596608562334528020
+  Name: "Ground"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8201309591474542957
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Ground"
   }
 }
 Objects {

@@ -1,5 +1,5 @@
 Assets {
-  Id: 14158503654439801706
+  Id: 12575856295765876579
   Name: "Moving Platform"
   PlatformAssetType: 5
   TemplateAsset {
@@ -30,7 +30,7 @@ Assets {
         Folder {
           BundleDummy {
             ReferencedAssets {
-              Id: 15179518642915449532
+              Id: 12431729072329565162
             }
           }
         }

@@ -27,40 +27,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6230487291917958532
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Third Person Camera Settings"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: -1330
-            Z: 220
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11592647923584693331
-      value {
-        Overrides {
-          Name: "PlayerJumpMaxCount"
-          Int: 2
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13544716362116832690
-    }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1158209374923345070
+    SubobjectId: 6230487291917958532
+    InstanceId: 5444765269642046052
+    TemplateId: 13544716362116832690
+    WasRoot: true
   }
 }
 Objects {
@@ -269,7 +244,6 @@ Objects {
   Name: "Game State Settings"
   Transform {
     Location {
-      Z: 200
     }
     Rotation {
     }

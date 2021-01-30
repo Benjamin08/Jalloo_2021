@@ -1,5 +1,5 @@
 Assets {
-  Id: 15179518642915449532
+  Id: 723532854901236705
   Name: "MovingPlatform"
   PlatformAssetType: 5
   TemplateAsset {
@@ -106,7 +106,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 4093744753930507793
+            Id: 12820908036617842051
           }
         }
       }

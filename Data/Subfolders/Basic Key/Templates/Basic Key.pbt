@@ -1,12 +1,12 @@
 Assets {
-  Id: 14158503654439801706
-  Name: "Moving Platform"
+  Id: 8076646332944756207
+  Name: "Basic Key"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 5779248565563160263
+      RootId: 17270621714689805378
       Objects {
-        Id: 5779248565563160263
+        Id: 17270621714689805378
         Name: "TemplateBundleDummy"
         Transform {
           Location {
@@ -19,18 +19,16 @@ Assets {
             Z: 1
           }
         }
-        UnregisteredParameters {
-        }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Folder {
           BundleDummy {
             ReferencedAssets {
-              Id: 15179518642915449532
+              Id: 11918559754579028493
             }
           }
         }
@@ -42,11 +40,11 @@ Assets {
     }
   }
   Marketplace {
-    Id: "e720dfc6fa4b4532aa201f383ff741e7"
-    OwnerAccountId: "f261f4bb05b44bb2bf465b8a8346491f"
-    OwnerName: "WaveParadigm"
-    Version: "1.1.0"
-    Description: "A script that allows any object to lerp back and forth between two points, constantly rotate at a set speed, or both!"
+    Id: "24b8d6f8f60c4d47bbb39aff44964190"
+    OwnerAccountId: "557d4f1ae17646579646dfd20dcb7b66"
+    OwnerName: "AwkwardGameDev"
+    Version: "1.2.0"
+    Description: "Basic key"
   }
   SerializationVersion: 73
 }

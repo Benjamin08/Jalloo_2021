@@ -1,6 +1,6 @@
 Assets {
-  Id: 4093744753930507793
-  Name: "MovingPlatform"
+  Id: 10000760530273759805
+  Name: "DroppingPlatform"
   PlatformAssetType: 3
   TextAsset {
   }

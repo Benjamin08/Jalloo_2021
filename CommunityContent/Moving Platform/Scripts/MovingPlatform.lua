@@ -22,19 +22,3 @@ function Tick(dt)
 	ROOT:MoveTo(startPos, TIME_TO_TRAVEL)
 	Task.Wait(TIME_TO_TRAVEL + DELAY)
 end		
-
--- When a player hits the coin, increment a resource on the player and remove the coin
-function handleOverlap(trigger, object)
-    if object ~= nil and object:IsA("Player") then
-		propCoinSound:Play()
-		trigger.isEnabled = false
-
-		object:AddResource("Coins", 100)
-
-		--Task.Wait(5)
-		--trigger.isEnabled = true
-    end
-end
-
--- Whenever an object collides with the trigger, run this function
----script.parent.beginOverlapEvent:Connect(handleOverlap)

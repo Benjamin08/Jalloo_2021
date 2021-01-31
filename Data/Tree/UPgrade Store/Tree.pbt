@@ -1,6 +1,92 @@
 Name: "UPgrade Store"
 RootId: 7681365761919267760
 Objects {
+  Id: 15880278885939516759
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 4490
+      Y: 2700
+      Z: -3080
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7681365761919267760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Triple Jump Cost 10,000"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 9265944844401201436
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 4730
+      Y: 3285
+      Z: -2910
+    }
+    Rotation {
+      Yaw: -120
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7681365761919267760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Jetpack Cost 50,000"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
   Id: 6273039892449825197
   Name: "store frount "
   Transform {
@@ -44,11 +130,11 @@ Objects {
     }
   }
   ParentId: 7681365761919267760
-  ChildIds: 8604421078268725128
   ChildIds: 165903711322892771
   ChildIds: 907754978474369992
   ChildIds: 17124731641267389508
   ChildIds: 5752317257852116883
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83,6 +169,7 @@ Objects {
     }
   }
   ParentId: 130500741221008211
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,6 +199,7 @@ Objects {
     }
   }
   ParentId: 130500741221008211
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -162,6 +250,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -217,6 +306,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -251,19 +341,20 @@ Objects {
   Name: "Craftsman Part - Stair Balust"
   Transform {
     Location {
-      X: 18.75
-      Y: 17.5
-      Z: -50
+      X: 4905
+      Y: 3565
+      Z: -3170
     }
     Rotation {
     }
     Scale {
-      X: 0.25
-      Y: 0.25
-      Z: 0.25
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 130500741221008211
+  ParentId: 7681365761919267760
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

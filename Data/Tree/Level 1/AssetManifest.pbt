@@ -1691,6 +1691,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2637236834758349525
+  Name: "Gear - generic small hollow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_gear_small_001_wide-hole"
+  }
+}
+Assets {
   Id: 2469313280627759486
   Name: "Main Street Wall 02 - Corner Trim 01"
   PlatformAssetType: 1

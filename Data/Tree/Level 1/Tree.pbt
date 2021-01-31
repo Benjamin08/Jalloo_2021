@@ -15,6 +15,7 @@ Objects {
     }
   }
   ParentId: 17019464443057773195
+  ChildIds: 5459186976465921016
   ChildIds: 9193312406799123538
   ChildIds: 9268905100368626137
   ChildIds: 12684912597312624278
@@ -65,6 +66,30 @@ Objects {
   ChildIds: 4773993090191374934
   ChildIds: 8694071835658602782
   ChildIds: 12765053815986149149
+  ChildIds: 16682510973988528279
+  ChildIds: 9926830256426581220
+  ChildIds: 7102632664070798126
+  ChildIds: 16888910767509696991
+  ChildIds: 3869619514862247397
+  ChildIds: 4195294493574975311
+  ChildIds: 17038660111552345492
+  ChildIds: 4141468634543600937
+  ChildIds: 7097891352828214352
+  ChildIds: 16570012289949383172
+  ChildIds: 15573058742725727510
+  ChildIds: 7731058390431892279
+  ChildIds: 8031466008445213784
+  ChildIds: 14737724128469287804
+  ChildIds: 8709022453485885444
+  ChildIds: 1374397587001239817
+  ChildIds: 6160515295346281363
+  ChildIds: 4172233233362477136
+  ChildIds: 15228182158613508816
+  ChildIds: 9287811197341745486
+  ChildIds: 1087773087416240891
+  ChildIds: 15835336985290561197
+  ChildIds: 4580672362957520958
+  ChildIds: 8522281956824026962
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -73,6 +98,974 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8522281956824026962
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -285
+      Y: -1265
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4580672362957520958
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 290
+      Y: -1875
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15835336985290561197
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 95
+      Y: -1800
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1087773087416240891
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -285
+      Y: -1800
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9287811197341745486
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -90
+      Y: -1630
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15228182158613508816
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 290
+      Y: -1630
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4172233233362477136
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 95
+      Y: -1555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6160515295346281363
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -285
+      Y: -1555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1374397587001239817
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -90
+      Y: -1340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8709022453485885444
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 290
+      Y: -1340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14737724128469287804
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 95
+      Y: -1265
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8031466008445213784
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -90
+      Y: -1875
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7731058390431892279
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -285
+      Y: -485
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15573058742725727510
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 290
+      Y: -1095
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16570012289949383172
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 95
+      Y: -1020
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7097891352828214352
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -285
+      Y: -1020
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4141468634543600937
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -90
+      Y: -850
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17038660111552345492
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 290
+      Y: -850
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4195294493574975311
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 95
+      Y: -775
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3869619514862247397
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -285
+      Y: -775
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16888910767509696991
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -90
+      Y: -560
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7102632664070798126
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 290
+      Y: -560
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9926830256426581220
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: 95
+      Y: -485
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16682510973988528279
+  Name: "Flower Bellflower Patch 01"
+  Transform {
+    Location {
+      X: -90
+      Y: -1095
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10041692168901401194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10329624793393898034
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -1015,6 +2008,7 @@ Objects {
   }
   ParentId: 11482993303036076900
   ChildIds: 15771877252376034762
+  ChildIds: 3639294961892711542
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1024,6 +2018,48 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3639294961892711542
+  Name: "Shipping Pallet - Square"
+  Transform {
+    Location {
+      X: -8760
+      Y: -1255
+      Z: 3050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1840563167030684731
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9783373452716819494
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -1115,6 +2151,9 @@ Objects {
   ParentId: 11482993303036076900
   ChildIds: 12005907140758320583
   ChildIds: 5046052714290657909
+  ChildIds: 14716056717181919350
+  ChildIds: 18107099379690331271
+  ChildIds: 4083358661815948420
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1124,6 +2163,492 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4083358661815948420
+  Name: "Rotating Gear 5"
+  Transform {
+    Location {
+      X: -11885
+      Y: 2015
+      Z: 455
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11654162489695766474
+  ChildIds: 9162685944321346294
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9162685944321346294
+  Name: "MovingPlatform"
+  Transform {
+    Location {
+      X: -315
+      Y: -830
+      Z: 489.999756
+    }
+    Rotation {
+      Yaw: 115
+    }
+    Scale {
+      X: 20
+      Y: 20
+      Z: 20
+    }
+  }
+  ParentId: 4083358661815948420
+  ChildIds: 14922096996669336843
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9691585235102710834
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2637236834758349525
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6313595524037261420
+    SubobjectId: 2671395276593627741
+    InstanceId: 1565487067025954420
+    TemplateId: 12431729072329565162
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 14922096996669336843
+  Name: "MovingPlatform"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 9162685944321346294
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToTravel"
+      Float: 2.5
+    }
+    Overrides {
+      Name: "cs:Offset"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationRate"
+      Rotator {
+        Pitch: 50
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:Delay"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:TimeToTravel:tooltip"
+      String: "The length of time it takes the platform to move to its offset."
+    }
+    Overrides {
+      Name: "cs:Offset:tooltip"
+      String: "How far away from its initial position this platform will move towards, wait, and then return."
+    }
+    Overrides {
+      Name: "cs:Delay:tooltip"
+      String: "The length of time the platform will pause at each end of its trip before resuming."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10909506530533257007
+    }
+  }
+  InstanceHistory {
+    SelfId: 15552019759530064150
+    SubobjectId: 11916254025430631207
+    InstanceId: 1565487067025954420
+    TemplateId: 12431729072329565162
+  }
+}
+Objects {
+  Id: 18107099379690331271
+  Name: "Rotating Gear 4"
+  Transform {
+    Location {
+      X: -12070
+      Y: 1935
+      Z: 455.000122
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11654162489695766474
+  ChildIds: 13787001457843189662
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13787001457843189662
+  Name: "MovingPlatform"
+  Transform {
+    Location {
+      X: -315
+      Y: -835
+      Z: 489.999756
+    }
+    Rotation {
+      Yaw: 115
+    }
+    Scale {
+      X: 20
+      Y: 20
+      Z: 20
+    }
+  }
+  ParentId: 18107099379690331271
+  ChildIds: 14060610087928692605
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9691585235102710834
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2637236834758349525
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6313595524037261420
+    SubobjectId: 2671395276593627741
+    InstanceId: 1565487067025954420
+    TemplateId: 12431729072329565162
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 14060610087928692605
+  Name: "MovingPlatform"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 13787001457843189662
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToTravel"
+      Float: 2.5
+    }
+    Overrides {
+      Name: "cs:Offset"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationRate"
+      Rotator {
+        Pitch: -50
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:Delay"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:TimeToTravel:tooltip"
+      String: "The length of time it takes the platform to move to its offset."
+    }
+    Overrides {
+      Name: "cs:Offset:tooltip"
+      String: "How far away from its initial position this platform will move towards, wait, and then return."
+    }
+    Overrides {
+      Name: "cs:Delay:tooltip"
+      String: "The length of time the platform will pause at each end of its trip before resuming."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10909506530533257007
+    }
+  }
+  InstanceHistory {
+    SelfId: 15552019759530064150
+    SubobjectId: 11916254025430631207
+    InstanceId: 1565487067025954420
+    TemplateId: 12431729072329565162
+  }
+}
+Objects {
+  Id: 14716056717181919350
+  Name: "Rotating Gear 3"
+  Transform {
+    Location {
+      X: -12455
+      Y: 1780
+      Z: 455
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11654162489695766474
+  ChildIds: 3571765442310350430
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3571765442310350430
+  Name: "MovingPlatform"
+  Transform {
+    Location {
+      X: -115
+      Y: -765
+      Z: 489.999573
+    }
+    Rotation {
+      Yaw: 115
+    }
+    Scale {
+      X: 20
+      Y: 20
+      Z: 20
+    }
+  }
+  ParentId: 14716056717181919350
+  ChildIds: 6336125100078727798
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9691585235102710834
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2637236834758349525
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6313595524037261420
+    SubobjectId: 2671395276593627741
+    InstanceId: 1565487067025954420
+    TemplateId: 12431729072329565162
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6336125100078727798
+  Name: "MovingPlatform"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 3571765442310350430
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToTravel"
+      Float: 2.5
+    }
+    Overrides {
+      Name: "cs:Offset"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationRate"
+      Rotator {
+        Pitch: 50
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:Delay"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:TimeToTravel:tooltip"
+      String: "The length of time it takes the platform to move to its offset."
+    }
+    Overrides {
+      Name: "cs:Offset:tooltip"
+      String: "How far away from its initial position this platform will move towards, wait, and then return."
+    }
+    Overrides {
+      Name: "cs:Delay:tooltip"
+      String: "The length of time the platform will pause at each end of its trip before resuming."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10909506530533257007
+    }
+  }
+  InstanceHistory {
+    SelfId: 15552019759530064150
+    SubobjectId: 11916254025430631207
+    InstanceId: 1565487067025954420
+    TemplateId: 12431729072329565162
   }
 }
 Objects {
@@ -2363,6 +3888,7 @@ Objects {
   ChildIds: 9272547684309010043
   ChildIds: 12146015352043403178
   ChildIds: 11209645406628217746
+  ChildIds: 12089860447877288248
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2371,6 +3897,54 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 12089860447877288248
+  Name: "Suburbs01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12684912597312624278
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 201147539859712810
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Suburbs01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6715
+            Y: 4610
+            Z: -10
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7973973787211634452
+    }
   }
 }
 Objects {
@@ -78944,7 +80518,7 @@ Objects {
         Overrides {
           Name: "cs:RotationRate"
           Rotator {
-            Yaw: 5
+            Yaw: 10
           }
         }
         Overrides {
@@ -79032,7 +80606,7 @@ Objects {
         Overrides {
           Name: "cs:RotationRate"
           Rotator {
-            Yaw: 5
+            Yaw: 10
           }
         }
       }
@@ -79702,5 +81276,60 @@ Objects {
         LinearDamping: 0.01
       }
     }
+  }
+}
+Objects {
+  Id: 5459186976465921016
+  Name: "Tires"
+  Transform {
+    Location {
+      X: -8860
+      Y: -3130
+      Z: 2475
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 5
+    }
+  }
+  ParentId: 11482993303036076900
+  ChildIds: 6292902409716867931
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6292902409716867931
+  Name: "Tires"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 5459186976465921016
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Tires"
   }
 }

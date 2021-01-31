@@ -46,7 +46,7 @@ Objects {
   Transform {
     Location {
       X: -180
-      Y: 45
+      Y: -90
     }
     Rotation {
     }
@@ -86,7 +86,7 @@ Objects {
   Transform {
     Location {
       X: -180
-      Y: 45
+      Y: -90
       Z: 1205
     }
     Rotation {
@@ -127,7 +127,7 @@ Objects {
   Transform {
     Location {
       X: -180
-      Y: 45
+      Y: -90
       Z: 605
     }
     Rotation {
@@ -168,7 +168,7 @@ Objects {
   Transform {
     Location {
       X: -180
-      Y: 45
+      Y: -90
       Z: 1695
     }
     Rotation {
@@ -559,7 +559,7 @@ Objects {
   Transform {
     Location {
       X: 345
-      Y: 45
+      Y: -65
       Z: 1700
     }
     Rotation {
@@ -600,7 +600,7 @@ Objects {
   Transform {
     Location {
       X: 345
-      Y: 45
+      Y: -65
       Z: 1205
     }
     Rotation {
@@ -641,7 +641,7 @@ Objects {
   Transform {
     Location {
       X: 345
-      Y: 45
+      Y: -65
       Z: 605
     }
     Rotation {
@@ -682,7 +682,7 @@ Objects {
   Transform {
     Location {
       X: 345
-      Y: 45
+      Y: -65
     }
     Rotation {
     }

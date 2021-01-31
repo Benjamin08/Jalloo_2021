@@ -47,6 +47,7 @@ Objects {
   }
   ParentId: 11291892547204342145
   ChildIds: 3650178095658747503
+  ChildIds: 7628211193735336389
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -86,6 +87,41 @@ Objects {
     InstanceId: 1565487067025954420
     TemplateId: 12431729072329565162
     WasRoot: true
+  }
+}
+Objects {
+  Id: 7628211193735336389
+  Name: "Vehicle Car Off Road 4 Wheeler Engine Idle Loop 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 5025218245028192137
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 15663026211214115488
+    }
+    AutoPlay: true
+    Volume: 1
+    Falloff: 1500
+    Radius: 500
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
   }
 }
 Objects {

@@ -1,6 +1,795 @@
 Name: "Level 1 Coins"
 RootId: 6475653926233282736
 Objects {
+  Id: 13452627013695291437
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -3925
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -27780
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 14006214516444122111
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -4600
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -28430
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 14803110326785243992
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -5300
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -29105
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 14057936146484290510
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -6075
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -29805
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 14854300397802356853
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -6725
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -30580
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 13353830472658866340
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -6325
+      Y: -8450
+      Z: -3174.99976
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5565
+            Y: -31555
+            Z: 54.9997559
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 9831303308588794512
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5025
+      Y: -8425
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5565
+            Y: -32955
+            Z: 55.0002441
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 6152743771122450023
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -4975
+      Y: -7075
+      Z: -3175.00024
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4265
+            Y: -32930
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 16087129374269104087
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -6725
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4215
+            Y: -31580
+            Z: 54.9997559
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 7884460009805045402
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -4675
+      Y: -7700
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5865
+            Y: -32205
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 750446981213375219
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -8850
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3915
+            Y: -32205
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 4756768787740966017
+  Name: "Coin Stuff"
+  Transform {
+    Location {
+      X: -5625
+      Y: -6650
+      Z: -3175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -33255
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 18096297171041025832
+  Name: "Coin Stuff"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6547896829145291047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Coin Stuff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4865
+            Y: -31230
+            Z: 55
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12020637951745380958
+    }
+  }
+}
+Objects {
+  Id: 15512325951506816031
+  Name: "Big Coin"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8460615390038329554
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Big Coin"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4840
+            Y: -32230
+            Z: 830
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5614694177811607398
+    }
+  }
+}
+Objects {
+  Id: 7269577356329832784
+  Name: "Big Coin"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6475653926233282736
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8460615390038329554
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Big Coin"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5810
+            Y: -28205
+            Z: 2955
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5614694177811607398
+    }
+  }
+}
+Objects {
   Id: 9960486911117147247
   Name: "Big Coin"
   Transform {
@@ -7326,7 +8115,7 @@ Objects {
           Vector {
             X: -8165
             Y: -27620
-            Z: 2390
+            Z: 3005
           }
         }
         Overrides {
@@ -7393,115 +8182,7 @@ Objects {
           Vector {
             X: -8690
             Y: -27880
-            Z: 2390
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5614694177811607398
-    }
-  }
-}
-Objects {
-  Id: 13123594443562853879
-  Name: "Big Coin"
-  Transform {
-    Location {
-      X: 1785
-      Y: 3395
-      Z: 2705
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6475653926233282736
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8460615390038329554
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Big Coin"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2865
-            Y: -23950
-            Z: 5880
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5614694177811607398
-    }
-  }
-}
-Objects {
-  Id: 6748865769977882875
-  Name: "Big Coin"
-  Transform {
-    Location {
-      X: -3530
-      Y: 2380
-      Z: 2130
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6475653926233282736
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8460615390038329554
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Big Coin"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2500
-            Y: -21110
-            Z: 5935
+            Z: 3005
           }
         }
         Overrides {
@@ -7965,7 +8646,7 @@ Objects {
           Vector {
             X: -8430
             Y: -27740
-            Z: 2390
+            Z: 3005
           }
         }
         Overrides {
@@ -8279,7 +8960,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3365
+            X: 3410
             Y: -27430
             Z: 2230
           }
@@ -8363,8 +9044,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3515
-            Y: -27670
+            X: 3535
+            Y: -27655
             Z: 2230
           }
         }
@@ -8531,8 +9212,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3795
-            Y: -28070
+            X: 3785
+            Y: -28080
             Z: 2230
           }
         }

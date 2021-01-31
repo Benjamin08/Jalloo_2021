@@ -41,7 +41,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Size"
-      Float: 5
+      Float: 10
     }
     Overrides {
       Name: "bp:Light Shaft Bloom"
@@ -57,14 +57,14 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.5
+      Float: 0.584078
     }
     Overrides {
       Name: "bp:Sun Disc Color"
       Color {
-        R: 3
-        G: 3
-        B: 3
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -135,7 +135,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3
+      Float: 1.8393116
     }
     Overrides {
       Name: "bp:Lower Hemisphere Color"
@@ -286,7 +286,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Brightness"
-      Float: 1
+      Float: 0.122533441
     }
     Overrides {
       Name: "bp:Background Clouds"

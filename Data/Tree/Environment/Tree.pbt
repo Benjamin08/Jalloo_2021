@@ -89,6 +89,10 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "bp:Cast Shadows"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

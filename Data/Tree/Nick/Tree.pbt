@@ -76,6 +76,12 @@ Objects {
             Z: -3120
           }
         }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
       }
     }
     ParameterOverrideMap {

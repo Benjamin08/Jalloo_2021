@@ -53,7 +53,6 @@ Objects {
     }
   }
   ParentId: 1158209374923345070
-  ChildIds: 17123089912567629766
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -67,58 +66,6 @@ Objects {
   InstanceHistory {
     SelfId: 15433785145989520250
     SubobjectId: 10397188341633673808
-    InstanceId: 5444765269642046052
-    TemplateId: 13544716362116832690
-  }
-}
-Objects {
-  Id: 17123089912567629766
-  Name: "Third Person Camera"
-  Transform {
-    Location {
-      Y: -1975
-      Z: -13235
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15433785145989520250
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Camera {
-    UseAsDefault: true
-    AttachToLocalPlayer: true
-    InitialDistance: 400
-    MinDistance: 300
-    MaxDistance: 600
-    PositionOffset {
-      Y: 60
-    }
-    RotationOffset {
-    }
-    FieldOfView: 90
-    ViewWidth: 1200
-    RotationMode {
-      Value: "mc:erotationmode:lookangle"
-    }
-    MinPitch: -89
-    MaxPitch: 89
-    DoesPositionOffsetSpring: true
-  }
-  InstanceHistory {
-    SelfId: 17123089912567629766
-    SubobjectId: 12377164915522451180
     InstanceId: 5444765269642046052
     TemplateId: 13544716362116832690
   }

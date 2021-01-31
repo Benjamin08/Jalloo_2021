@@ -22,9 +22,20 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5550
+            X: 5700
             Y: 1500
             Z: -3100
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10211021569219443251
+      value {
+        Overrides {
+          Name: "TriggerShape"
+          Enum {
+            Value: "mc:etriggershape:box"
           }
         }
       }

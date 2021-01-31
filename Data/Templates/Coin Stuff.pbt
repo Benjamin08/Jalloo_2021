@@ -34,9 +34,6 @@ Assets {
         Name: "Coin"
         Transform {
           Location {
-            X: -50
-            Y: -1000
-            Z: 50
           }
           Rotation {
           }

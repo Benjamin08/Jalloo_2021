@@ -242,6 +242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17485881147669499682
+  Name: "Cube - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_001"
+  }
+}
+Assets {
   Id: 17360697301587620676
   Name: "Metal Steel Triangle 01"
   PlatformAssetType: 2
@@ -818,6 +827,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15049846606931455745
+  Name: "Simple Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_simple_150cm_001"
+  }
+}
+Assets {
   Id: 14939638297730342942
   Name: "Urban Damaged Concrete Panel 01 - 2x4m"
   PlatformAssetType: 1
@@ -1004,6 +1022,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_rebar_005_ref"
+  }
+}
+Assets {
+  Id: 14292869428683022472
+  Name: "Barrier Concrete 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street_barrier_001"
   }
 }
 Assets {
@@ -1331,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12793060997350586228
+  Name: "Military Hesco Barrier"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_hesco_001"
+  }
+}
+Assets {
   Id: 12728337217389179065
   Name: "Craftsman Wall 02 Corner"
   PlatformAssetType: 1
@@ -1490,6 +1526,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_003_corner_ref"
+  }
+}
+Assets {
+  Id: 11941692555528144469
+  Name: "Street Sign - Octagon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street-sign_octagon_001"
   }
 }
 Assets {
@@ -1880,6 +1925,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9906491685923217027
+  Name: "Whitebox Stairs 01 Straight 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
+  }
+}
+Assets {
   Id: 9854300118954762980
   Name: "Urban Damaged Rebar Lattice 02"
   PlatformAssetType: 1
@@ -1904,6 +1958,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_ammo_bullet_tip_001"
+  }
+}
+Assets {
+  Id: 9820333862526212022
+  Name: "Shipping Pallet - Rectangular"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_shipping_pallet_001"
   }
 }
 Assets {
@@ -1940,6 +2003,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_tib_01_ref"
+  }
+}
+Assets {
+  Id: 9448016139925936771
+  Name: "Whitebox Wall 01 Triangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_tri"
   }
 }
 Assets {
@@ -2231,21 +2303,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7367779799883103587
-  Name: "Metal Corrugated 03"
+  Id: 7283825798727192743
+  Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
-  }
-}
-Assets {
-  Id: 7343766318361118166
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
+    AssetId: "mi_metal_iron_003"
   }
 }
 Assets {
@@ -2516,6 +2579,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curtain_02"
+  }
+}
+Assets {
+  Id: 5868465374856696904
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -2933,6 +3005,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3694419892625887874
+  Name: "Military Hazard Barrel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_barrel_01_ref"
+  }
+}
+Assets {
   Id: 3641589051133346070
   Name: "Wedge - Corner-Aligned"
   PlatformAssetType: 1
@@ -3200,6 +3281,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_airconditioner_001_ref"
+  }
+}
+Assets {
+  Id: 2401284346897963829
+  Name: "Street Light 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_light_001"
   }
 }
 Assets {
@@ -3677,5 +3767,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_001_ref"
+  }
+}
+Assets {
+  Id: 93416790986469
+  Name: "Military Hesco Barrier - Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_hesco_002"
   }
 }

@@ -170,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17680666645830167541
+  Name: "Urban Dumpster 01 - Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_trashbin_big_001_base_001_ref"
+  }
+}
+Assets {
   Id: 17669698663860742329
   Name: "Decal Military Posters 01"
   PlatformAssetType: 14

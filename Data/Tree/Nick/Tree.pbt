@@ -1,6 +1,52 @@
 Name: "Nick"
 RootId: 8312963254969862732
 Objects {
+  Id: 6692015735604806339
+  Name: "Phone"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8312963254969862732
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17215012736106339947
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Phone"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2050
+            Y: 3420
+            Z: 1215
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10293277288570420050
+    }
+  }
+}
+Objects {
   Id: 13192105316620362830
   Name: "BIgASSkey"
   Transform {
@@ -31,15 +77,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7980
-            Y: -3915
-            Z: -2995
+            X: -7975
+            Y: -4110
+            Z: -2940
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Roll: -90
           }
         }
       }

@@ -72049,6 +72049,20 @@ Objects {
   ChildIds: 17081333456213245827
   ChildIds: 13475578240826117322
   ChildIds: 17881993466412631625
+  ChildIds: 16794621682062037184
+  ChildIds: 14837563701459050441
+  ChildIds: 15695930091921959803
+  ChildIds: 13895781703522879341
+  ChildIds: 11213401696495722517
+  ChildIds: 512353049623260839
+  ChildIds: 9949213551926921707
+  ChildIds: 2847802975994763046
+  ChildIds: 13581556318124343300
+  ChildIds: 9976394161793385138
+  ChildIds: 17652024249603962821
+  ChildIds: 2329941315156369147
+  ChildIds: 7733799686825380488
+  ChildIds: 6079574731531831969
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -72104,6 +72118,897 @@ Objects {
   InstanceHistory {
     SelfId: 3082925254971586174
     SubobjectId: 10865287960192663399
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 6079574731531831969
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -7299.99805
+      Y: -975
+      Z: 265.000732
+    }
+    Rotation {
+      Pitch: 90
+      Roll: 7.62939317e-06
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 7733799686825380488
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -7299.99805
+      Y: -1375
+      Z: 265.000732
+    }
+    Rotation {
+      Pitch: 90
+      Roll: 7.62939453e-06
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 2329941315156369147
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -5889.99805
+      Y: -1965
+      Z: 265.000732
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -90
+      Roll: 180
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 17652024249603962821
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -7099.99805
+      Y: -1965
+      Z: 265.000732
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: 180
+      Roll: 90.0000153
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 9976394161793385138
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -7099.99805
+      Y: -370
+      Z: 265.000732
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -90
+      Roll: 180
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 13581556318124343300
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -5889.99805
+      Y: -370
+      Z: 265.000732
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: 90
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 2847802975994763046
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -7309.99805
+      Y: -580
+      Z: 1050.00073
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 9949213551926921707
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -7309.99805
+      Y: -1770
+      Z: 1045.00073
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 512353049623260839
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -5684.99805
+      Y: -1770
+      Z: 1055.00073
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 11213401696495722517
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -5684.99805
+      Y: -580
+      Z: 1050.00073
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 13895781703522879341
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -1409.99805
+      Y: 0.000732421875
+      Z: 300.000732
+    }
+    Rotation {
+      Roll: 89.9999084
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 15695930091921959803
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: -999.998047
+      Y: 0.000732421875
+      Z: 300.000732
+    }
+    Rotation {
+      Roll: 89.9999084
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 14837563701459050441
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: 190.001953
+      Y: 0.000732421875
+      Z: 300.000732
+    }
+    Rotation {
+      Roll: 89.9999084
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
+    InstanceId: 3618018988027642362
+    TemplateId: 18170117907009968897
+  }
+}
+Objects {
+  Id: 16794621682062037184
+  Name: "Plane 4m - Two Sided"
+  Transform {
+    Location {
+      X: 580.001953
+      Y: 0.000732421875
+      Z: 300.000732
+    }
+    Rotation {
+      Roll: 89.9999084
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 3082925254971586174
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10766975867019021707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.37
+        G: 0.406833261
+        B: 0.5
+        A: 0.716
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 550227170375246561
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7586327473110525206
+    SubobjectId: 15368970641378110479
     InstanceId: 3618018988027642362
     TemplateId: 18170117907009968897
   }

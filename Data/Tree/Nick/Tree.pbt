@@ -1,6 +1,55 @@
 Name: "Nick"
 RootId: 8312963254969862732
 Objects {
+  Id: 13192105316620362830
+  Name: "BIgASSkey"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8312963254969862732
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17215012736106339947
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BIgASSkey"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7980
+            Y: -3915
+            Z: -2995
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9363415347757242383
+    }
+  }
+}
+Objects {
   Id: 7446224050552364459
   Name: "NPC"
   Transform {
